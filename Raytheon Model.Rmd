@@ -1,0 +1,19 @@
+---
+title: "Model for Predicting Employee Status"
+author: "Mengkang Wang"
+date: "September 30, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+#### Predictors
+* **Total Labor Hours** - TLH
+* **Direct Pct of Total Hours** - DPTH
+* **Overtime Hours** - OTHRS
+* **Holiday Labor Hours** - HLH
+* **Vacation/Sick Leave Hours** - VSLH
+
+#### Model Fomula
+$$ Probability = celsius \times \frac{9}{5} + 32 $$
